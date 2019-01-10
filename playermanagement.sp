@@ -125,8 +125,8 @@ public OnClientAuthorized(client, const String:auth[])
 
 public OnClientDisconnect_Post(client)
 {
-	if (isMapActive)
-		FixBotCount();
+	if (isMapActive);
+		//FixBotCount()
 }
 
 public Action:Spectate_Cmd(client, args)
